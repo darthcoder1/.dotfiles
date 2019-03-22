@@ -11,5 +11,6 @@ setup_symlink() {
 
 # Initialize the symlinks for the dotfiles
 setup_symlink .bash/.bash_profile
+setup_symlink .bash/.bash_aliases
 setup_symlink .bash/.git-prompt.sh
 setup_symlink .gitconfig
