@@ -1,8 +1,5 @@
 #!/bin/bash
-
-
-SCRIPT_PATH=$(realpath $0)
-BASE_PATH=$(dirname $SCRIPT_PATH)
+BASE_PATH=$(pwd)
 
 setup_symlink() {   
     rm -f $HOME/$1
