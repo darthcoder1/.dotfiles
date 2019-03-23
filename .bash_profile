@@ -9,3 +9,5 @@ source ~/.bash/.git-prompt.sh
 
 # include the aliases from .bash/.bash_aliases
 source ~/.bash/.bash_aliases
+
+cd $HOME

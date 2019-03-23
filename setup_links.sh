@@ -4,15 +4,9 @@
 SCRIPT_PATH=$(realpath $0)
 BASE_PATH=$(dirname $SCRIPT_PATH)
 
-clear_symlink_target() {
-    if [ -e "$1" ]; then
-        rm ~/$1
-    fi
-}
-
-setup_symlink() {
-    clear_symlink_target $1
-    ln -sv $BASE_PATH/$1 ~/$1
+setup_symlink() {   
+    rm -f $HOME/$1
+    ln -sv $BASE_PATH/$1 $HOME/$1
 }
 
 create_if_nonexisting() {
@@ -31,4 +25,5 @@ setup_symlink .bash/.git-prompt.sh
 setup_symlink .gitconfig
 
 # WSL conf file
+sudo rm -f /etc/wsl.conf
 sudo ln -sv $BASE_PATH/etc/wsl.conf /etc/wsl.conf
