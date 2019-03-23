@@ -14,7 +14,7 @@
   "editor.renderLineHighlight": "all",
 
   // workbench
-  "workbench.editor.highlightModifiedTabs": true
+  "workbench.editor.highlightModifiedTabs": true,
 
   // Files
   "files.exclude": {
@@ -28,6 +28,7 @@
     "**/.sass-cache": true,
     ".nyc_output": true
   },
+  "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
 

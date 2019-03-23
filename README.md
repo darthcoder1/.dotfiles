@@ -15,6 +15,11 @@ and creates symlinks for all managed .dotfiles.
 - Setup symlinks
   `~/.dotfiles/setup_links.sh`
 
+When using Windows and you want to link the vscode settings to the .dotfiles
+as well, run this in powershell or cmd
+
+`.dotfiles/setup_vscode.bat`
+
 ## Overview
 
 ### Bash
@@ -33,3 +38,8 @@ Predefined aliases:
     co:  checkout
     st:  status
     co:  commit
+
+### VSCode
+
+In .vscode, you find the extensions.txt, which contains a list of all extensions
+to install for vscode.

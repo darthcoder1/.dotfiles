@@ -1,7 +1,7 @@
 #!/bin/bash
 BASE_PATH=$(pwd)
 
-setup_symlink() {   
+setup_symlink() {
     rm -f $HOME/$1
     ln -sv $BASE_PATH/$1 $HOME/$1
 }

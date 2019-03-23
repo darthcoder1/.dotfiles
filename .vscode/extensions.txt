@@ -1,0 +1,14 @@
+CoenraadS.bracket-pair-colorizer-2
+dbaeumer.vscode-eslint
+eamodio.gitlens
+esbenp.prettier-vscode
+evanw.glslx-vscode
+lfurzewaddock.vscode-wsl-workspacefolder
+mitaki28.vscode-clang
+ms-vscode.cpptools
+ms-vscode.csharp
+oderwat.indent-rainbow
+Shan.code-settings-sync
+slevesque.shader
+Unity.unity-debug
+xaver.clang-format
