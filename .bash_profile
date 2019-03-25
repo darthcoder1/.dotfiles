@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [ -f "~/.bash_profile.local" ]; then
+	source "~/.bash_profile.local"
+fi
+
 source ~/.bashrc
 
 # setup language to english
