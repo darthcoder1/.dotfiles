@@ -32,6 +32,15 @@
   // Debug
   "debug.inlineValues": true,
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
+  "gitlens.currentLine.enabled": false,
+
+  // eslint
   "prettier.eslintIntegration": true,
-  "gitlens.currentLine.enabled": false
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  // Language dependent settings
+  // disable editor formatting for js, so eslint can handle it
+  "[javascript]": {
+    "editor.formatOnSave": false
+  }
 }
