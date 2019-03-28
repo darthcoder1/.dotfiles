@@ -42,5 +42,6 @@
   // disable editor formatting for js, so eslint can handle it
   "[javascript]": {
     "editor.formatOnSave": false
-  }
+  },
+  "window.zoomLevel": 0
 }
