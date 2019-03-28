@@ -32,5 +32,6 @@
   // Debug
   "debug.inlineValues": true,
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
-  "prettier.eslintIntegration": true
+  "prettier.eslintIntegration": true,
+  "gitlens.currentLine.enabled": false
 }
