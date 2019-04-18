@@ -45,5 +45,60 @@
     "key": "alt+right",
     "command": "-gitlens.key.right",
     "when": "gitlens:key:right"
+  },
+  {
+    "key": "f4",
+    "command": "-search.action.focusNextSearchResult",
+    "when": "hasSearchResult"
+  },
+  {
+    "key": "f4",
+    "command": "-goToNextReference",
+    "when": "referenceSearchVisible"
+  },
+  {
+    "key": "f4",
+    "command": "-goToNextReferenceFromEmbeddedEditor",
+    "when": "inReferenceSearchEditor"
+  },
+  {
+    "key": "f4",
+    "command": "-references-view.next",
+    "when": "reference-list.hasResult"
+  },
+  {
+    "key": "f4",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "alt+f12",
+    "command": "-editor.action.peekDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+  {
+    "key": "f4",
+    "command": "C_Cpp.GoToDeclaration",
+    "when": "editorTextFocus && editorLangId == 'cpp'"
+  },
+  {
+    "key": "ctrl+f12",
+    "command": "-C_Cpp.GoToDeclaration",
+    "when": "editorTextFocus && editorLangId == 'cpp'"
+  },
+  {
+    "key": "f4",
+    "command": "C_Cpp.GoToDeclaration",
+    "when": "editorTextFocus && editorLangId == 'c'"
+  },
+  {
+    "key": "ctrl+f12",
+    "command": "-C_Cpp.GoToDeclaration",
+    "when": "editorTextFocus && editorLangId == 'c'"
   }
 ]
