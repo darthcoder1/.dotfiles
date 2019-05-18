@@ -48,5 +48,6 @@
 
   "indentRainbow.excludedLanguages": ["plaintext"],
   "indentRainbow.tabmixColor": "",
-  "clang.executable": "c:\\Program Files\\LLVM\\bin\\clang.exe"
+  "clang.executable": "c:\\Program Files\\LLVM\\bin\\clang.exe",
+  "clang-format.executable": "clang-format"
 }

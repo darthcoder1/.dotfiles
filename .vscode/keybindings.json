@@ -82,7 +82,7 @@
     "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
   },
   {
-    "key": "f4",
+    "key": "alt+g",
     "command": "C_Cpp.GoToDeclaration",
     "when": "editorTextFocus && editorLangId == 'cpp'"
   },
@@ -92,7 +92,7 @@
     "when": "editorTextFocus && editorLangId == 'cpp'"
   },
   {
-    "key": "f4",
+    "key": "alt+g",
     "command": "C_Cpp.GoToDeclaration",
     "when": "editorTextFocus && editorLangId == 'c'"
   },
