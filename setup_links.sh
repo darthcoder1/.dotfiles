@@ -25,13 +25,11 @@ setup_symlink .gitconfig
 vscode_settings=~/.config/Code/User/settings.json
 vscode_keybindings=~/.config/Code/User/keybindings.json
 
-if [ -f $vscode_settings ]; then
-    rm $vscode_settings
-    ln -sv $BASE_PATH/.vscode/settings.json $vscode_settings
+rm $vscode_settings
+ln -sv $BASE_PATH/.vscode/settings.json $vscode_settings
 
-    rm $vscode_keybindings
-    ln -sv $BASE_PATH/.vscode/keybindings.json $vscode_keybindings
-fi
+rm $vscode_keybindings
+ln -sv $BASE_PATH/.vscode/keybindings.json $vscode_keybindings
 
 # WSL conf file
 sudo rm -f /etc/wsl.conf
