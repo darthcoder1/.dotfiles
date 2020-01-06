@@ -27,12 +27,12 @@ vscode_keybindings=~/.config/Code/User/keybindings.json
 
 if [ -f $vscode_settings ]; then
     rm $vscode_settings
-    ln -sv $BASE_PATH/.vscode/settings.json $vscode_settings
-
-    rm $vscode_keybindings
-    ln -sv $BASE_PATH/.vscode/keybindings.json $vscode_keybindings
 fi
 
-# WSL conf file
-sudo rm -f /etc/wsl.conf
-sudo ln -sv $BASE_PATH/etc/wsl.conf /etc/wsl.conf
+if [ -f $vscode_keybindings ]; then
+	rm $vscode_keybindings
+fi
+
+ln -sv $BASE_PATH/.vscode/settings.json $vscode_settings
+ln -sv $BASE_PATH/.vscode/keybindings.json $vscode_keybindings
+
