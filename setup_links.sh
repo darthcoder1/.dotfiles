@@ -14,7 +14,7 @@ create_if_nonexisting() {
 
 # Initialize the symlinks for Bash
 create_if_nonexisting ~/.bash
-setup_symlink .bash_profile
+setup_symlink .bash_settings
 setup_symlink .bash/.bash_aliases
 setup_symlink .bash/.git-prompt.sh
 
