@@ -27,7 +27,8 @@
     "**/bower_components": true,
     "**/_site": true,
     "**/.sass-cache": true,
-    ".nyc_output": true
+    ".nyc_output": true,
+    "**/install/**"
   },
   "files.watcherExclude": {
     "**/.git/objects/**": true,
@@ -69,5 +70,8 @@
   },
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
   },
 }
