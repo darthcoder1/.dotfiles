@@ -3,13 +3,16 @@
   "editor.fontFamily": "Dank Mono, Operator Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 16,
   "editor.formatOnSave": true,
-  "editor.rulers": [80, 100],
+  "editor.rulers": [
+    100,
+    120
+  ],
   "editor.tabSize": 4,
   "editor.scrollBeyondLastLine": false,
   "editor.minimap.enabled": true,
   "editor.fontLigatures": false,
   "editor.renderWhitespace": "all",
-  "editor.renderControlCharacters": true,
+  "editor.renderControlCharacters": false,
   "editor.smoothScrolling": true,
   "editor.renderLineHighlight": "all",
   // workbench
@@ -24,7 +27,15 @@
     "**/bower_components": true,
     "**/_site": true,
     "**/.sass-cache": true,
-    ".nyc_output": true
+    ".nyc_output": true,
+    "**/install/**"
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/comma-ai/**": true,
+    "deps": true
   },
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
@@ -33,9 +44,6 @@
   "debug.inlineValues": true,
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
   "gitlens.currentLine.enabled": false,
-
-  // eslint
-  "prettier.eslintIntegration": true,
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
   // Language dependent settings
@@ -43,11 +51,27 @@
   "[javascript]": {
     "editor.formatOnSave": false
   },
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "C_Cpp.updateChannel": "Insiders",
-
-  "indentRainbow.excludedLanguages": ["plaintext"],
+  "indentRainbow.excludedLanguages": [
+    "plaintext"
+  ],
   "indentRainbow.tabmixColor": "",
-  "clang.executable": "c:\\Program Files\\LLVM\\bin\\clang.exe",
-  "clang-format.executable": "clang-format"
+  "clang.executable": "clang",
+  "clang-format.executable": "clang-format",
+  "debug.onTaskErrors": "debugAnyway",
+  "yaml.schemas": {
+    "file:///home/martinz/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/workflow.schema.json": "/.github/workflows/*.yml",
+    "file:///home/martinz/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/action.schema.json": "/action.yml"
+  },
+  "[workflow]": {},
+  "files.associations": {
+    "*.yml": "yaml"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
 }

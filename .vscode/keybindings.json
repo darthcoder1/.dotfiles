@@ -83,22 +83,6 @@
   },
   {
     "key": "alt+g",
-    "command": "C_Cpp.GoToDeclaration",
-    "when": "editorTextFocus && editorLangId == 'cpp'"
-  },
-  {
-    "key": "ctrl+f12",
-    "command": "-C_Cpp.GoToDeclaration",
-    "when": "editorTextFocus && editorLangId == 'cpp'"
-  },
-  {
-    "key": "alt+g",
-    "command": "C_Cpp.GoToDeclaration",
-    "when": "editorTextFocus && editorLangId == 'c'"
-  },
-  {
-    "key": "ctrl+f12",
-    "command": "-C_Cpp.GoToDeclaration",
-    "when": "editorTextFocus && editorLangId == 'c'"
+    "command": "editor.action.goToDeclaration"
   }
 ]
