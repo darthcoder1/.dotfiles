@@ -54,7 +54,7 @@
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
   },
-  "terminal.integrated.fontFamily": "Menlo for Powerline",
+  "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
   "eslint.validate": [
     "typescript",
     "typescriptreact"
