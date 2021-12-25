@@ -1,77 +1,77 @@
 {
-  // Editor
-  "editor.fontFamily": "Dank Mono, Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 16,
-  "editor.formatOnSave": true,
-  "editor.rulers": [
-    100,
-    120
-  ],
-  "editor.tabSize": 4,
-  "editor.scrollBeyondLastLine": false,
-  "editor.minimap.enabled": true,
-  "editor.fontLigatures": false,
-  "editor.renderWhitespace": "all",
-  "editor.renderControlCharacters": false,
-  "editor.smoothScrolling": true,
-  "editor.renderLineHighlight": "all",
-  // workbench
-  "workbench.editor.highlightModifiedTabs": true,
-  // Files
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/.DS_Store": true,
-    "**/node_modules": true,
-    "**/bower_components": true,
-    "**/_site": true,
-    "**/.sass-cache": true,
-    ".nyc_output": true,
-    "**/install/**"
+  "remote.SSH.remotePlatform": {
+    "dc1-home": "linux",
+    "dc1-desktop": "linux"
   },
-  "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/node_modules/**": true,
-    "**/comma-ai/**": true,
-    "deps": true
-  },
-  "files.eol": "\n",
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  // Debug
-  "debug.inlineValues": true,
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
-  "gitlens.currentLine.enabled": false,
-  "eslint.autoFixOnSave": true,
-  "eslint.alwaysShowStatus": true,
-  // Language dependent settings
-  // disable editor formatting for js, so eslint can handle it
-  "[javascript]": {
-    "editor.formatOnSave": false
-  },
-  "window.zoomLevel": 0,
   "C_Cpp.updateChannel": "Insiders",
-  "indentRainbow.excludedLanguages": [
-    "plaintext"
-  ],
-  "indentRainbow.tabmixColor": "",
-  "clang.executable": "clang",
-  "clang-format.executable": "clang-format",
   "debug.onTaskErrors": "debugAnyway",
-  "yaml.schemas": {
-    "file:///home/martinz/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/workflow.schema.json": "/.github/workflows/*.yml",
-    "file:///home/martinz/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/action.schema.json": "/action.yml"
+  "http.proxySupport": "off",
+  // formatting
+  "gitlens.blame.highlight.enabled": false,
+  "editor.codeLens": false,
+  "gitlens.views.search.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "gitlens.hovers.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.details": false,
+  "gitlens.hovers.currentLine.changes": false,
+  "gitlens.hovers.annotations.enabled": false,
+  "gitlens.hovers.annotations.changes": false,
+  "gitlens.hovers.annotations.details": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "sync.gist": "be1010d50b90d189e19da1b8a2e7a8b5",
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
   },
-  "[workflow]": {},
-  "files.associations": {
-    "*.yml": "yaml"
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
-  "[cpp]": {
-    "editor.defaultFormatter": "xaver.clang-format"
+  "[rust]": {
+    "editor.defaultFormatter": "matklad.rust-analyzer"
   },
+  "go.formatTool": "goformat",
+  "[proto3]": {
+    "editor.defaultFormatter": "zxh404.vscode-proto3"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false,
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false,
+  },
+  "debug.allowBreakpointsEverywhere": true,
+  "rust-analyzer.completion.addCallArgumentSnippets": false,
+  "rust-analyzer.inlayHints.typeHints": false,
+  "rust-analyzer.inlayHints.parameterHints": false,
+  "rust-analyzer.inlayHints.chainingHints": false,
+  "rust-analyzer.inlayHints.enable": false,
+  "editor.formatOnSave": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "terminal.integrated.fontFamily": "Menlo for Powerline",
+  "eslint.validate": [
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.codeActionsOnSave.mode": "all",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "window.zoomLevel": 1,
+  "security.workspace.trust.untrustedFiles": "open",
 }
