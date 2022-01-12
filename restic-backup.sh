@@ -1,8 +1,7 @@
 #!/bin/bash
 # invoke this script from crontab daily at 5am
-
+source ~/.credentials/restic-creds.env
 RESTIC_REPOSITORY=sftp:dc1-desktop@dc1-home:/data/backups/dc1-desktop
-RESTIC_PASSWORD=babyhearing
 
 echo $RESTIC_PASSWORD >/tmp/password
 
